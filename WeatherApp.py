@@ -1,12 +1,12 @@
 #WeatherApp.py
-#Name:
-#Date:
-#Assignment:
+#Name: Noah Busack
+#Date: 10/26/2021
+#Assignment: Weather Assignment
 
 import WeatherInfo
 
 #Set your key
-WeatherInfo.setKey("<INSERT YOUR KEY HERE>")
+WeatherInfo.setKey("6b04b92feb317046e6d27d2261c3e291")
 
 #Ask the user for their city
 
