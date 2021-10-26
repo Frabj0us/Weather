@@ -9,7 +9,7 @@ import WeatherInfo
 WeatherInfo.setKey("6b04b92feb317046e6d27d2261c3e291")
 
 #Ask the user for their city
-
+Str city = raw_input("")
 #Update the weather with the given city
 
 #Request any data you need from the WeatherInfo API
