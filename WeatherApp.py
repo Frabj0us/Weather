@@ -24,27 +24,35 @@ else:
   
 #Request any data you need from the WeatherInfo API
 
-getDescription()
-getTemp
-getFeelsLike
-getHumidity
-getPressure
-getWindSpeed
+des = getDescription()
+temp = getTemp()
+fl = getFeelsLike()
+hum = getHumidity()
+pres = getPressure()
+ws = getWindSpeed()
 
 #Process the data
 
 
+
 #convert temperature to fahrenheit,
 
-float tempF = (getTemp() -273.15) * 9/5 + 32
+ temp = (getTemp() -273.15) * 9/5 + 32
 
 #determine wind speed in words
 
 print("the wind speed is " + (getWindSpeed) + " mph."
 
 #decide jacket and umbrella status
-
+      
+      if hum == 100:
+      print("you should carry an umbrella")
+      if temp < 40:
+      print("you should wear a jacket")
+      
 #Report to the user the weather of their city
+      
+      print(des + "the tempurature is " + temp + " the humidity is " + humidity + " the wind speed is " + ws + " 
 
 #Ask user if they would like another weather report
 #If yes, loop to the top of your program where they are asked for a city.
